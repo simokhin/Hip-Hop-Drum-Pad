@@ -6,32 +6,40 @@
     <title>Hip-Hop Drum Pad</title>
     <link rel="stylesheet" href="./css-reset.css">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Hip-Hop Drum Kit</h1>
+        <h1>Lo-fi Hip-Hop Drum Kit</h1>
     </header>
     <main>
         <div class="content">
             <div class="drum-pad">
                 <div id="row-1">
-                    <button id="1">Kick (Q)</button>
-                    <button id="2"></button>
-                    <button id="3"></button>
+                    <button id="81">Kick (Q)</button>
+                    <button id="87">(W)</button>
+                    <button id="69">(E)</button>
                 </div>
                 <div id="row-2">
-                    <button id="4"></button>
-                    <button id="5"></button>
-                    <button id="6">Snare (D)</button>
+                    <button id="65">(A)</button>
+                    <button id="83">(S)</button>
+                    <button id="68">Snare (D)</button>
                 </div>
                 <div id="row-3">
-                    <button id="7">Hi-hat (Z)</button>
-                    <button id="8"></button>
-                    <button id="9"></button>
+                    <button id="90">Hat (Z)</button>
+                    <button id="88">Perc (X)</button>
+                    <button id="67">(C)</button>
                 </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <a href="https://github.com/simokhin">GitHub</a>
+    </footer>
+
+    <audio src="./audio/kick 01.wav" id="q">Kick</audio>
+    <audio src="./audio/snare 01.wav" id="d">Snare</audio>
+    <audio src="./audio/hat 01.wav" id="z">Hat</audio>
+    <audio src="./audio/perc 01.wav" id="x">Perc</audio>
 </body>
 </html>
