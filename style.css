@@ -14,6 +14,18 @@ h1 {
     padding-left: 2rem;
 }
 
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
+
+h1:hover {
+    background-color: #F5F5F5;
+    color: #000000;
+    cursor: default;
+}
+
 main {
     height: 80vh;
 }
@@ -75,6 +87,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0.2rem;
+}
+
+img {
+    width: 1rem;
 }
 
 a {
